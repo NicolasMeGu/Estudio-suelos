@@ -148,7 +148,7 @@ body {
         .formulario .checkbox label {
           display: inline-block;
           cursor: pointer;
-          color: #FF4136;
+          color: #000000;
           position: relative;
           padding: 5px 15px 5px 51px;
           font-size: 1em;
@@ -158,7 +158,7 @@ body {
           transition: all 0.3s ease; }
           .formulario .radio label:hover,
           .formulario .checkbox label:hover {
-            background: rgba(255, 65, 54, 0.1); }
+            background: rgb(241, 14, 2); }
           .formulario .radio label:before,
           .formulario .checkbox label:before {
             content: "";
@@ -176,7 +176,7 @@ body {
             display: none; }
           .formulario input[type="radio"]:checked + label {
             padding: 5px 15px;
-            background: #07db0e;
+            background: #db078d;
             border-radius: 2px;
             color: #fff; }
         .formulario .checkbox label:before {
